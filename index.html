@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+
+     <!-- CSS --> 
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/fotter.css">
+     <link rel="stylesheet" href="./css/header.css">
+     <link rel="stylesheet" href="./css/responsive.css">
+
+     <!-- JS -->
+     <!-- <script defer src="./js/script.js"></script> -->
+     <script defer src="./js/script.js"></script> 
+
+    <title>Digi-Dex</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <span>Digimon Dex</span>
+
+        <form class="form">
+            <input
+             type="search"
+             class="input_search"
+             placeholder="Nome"
+             required
+             >
+        </form>
+
+    </header>
+
+    <!-- END HEADER -->
+
+    <main>
+        <!-- troquei class= por id=-->
+        <img src="#" alt="digimon" id="digimon_image"> 
+        <!-- https://digimon.shadowsmith.com/img/omnimon.jpg -->
+
+        <h1 id="digimon_data"> 
+            <h2  class="info_level">
+              LEVEL: <span id="digimon_level"></span> 
+            </h2>
+            
+            <h2 class="info_name">
+               NOME: <span id="digimon_name"></span>  
+            </h2>
+            
+        </h1> 
+
+       
+
+       <img src="./images/dig.jpg" alt="digdex" class="digdex" width="450px"> 
+
+      
+       <div class="buttons">
+        <button class="button btn-prev">Ant &lt;</button> 
+        <h3 class="espaco"></h3>
+        <button class="button btn-next">Prox &gt;</button>
+    </div>
+
+    </main>
+
+    <!-- FOTTER -->
+    <footer>
+        <span>
+            &copy; Digimon Dex  desenvolvido por: Paulo Roberto Ribeiro Morais, 2023 - Alguns direitos reservados.
+        </span>
+    </footer>
+
+    <!-- END FOTTER --> 
+    
+</body>
+</html>

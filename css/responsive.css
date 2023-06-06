@@ -1,0 +1,155 @@
+@media (max-width: 1200px){
+    main {
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .digdex{
+        width: 500px;
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main img[id="digimon_image"]{
+        left: 54%;
+    }
+
+    main .info_level {
+        width: 100px;
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 20%;
+        font-size: 0.7em;
+        font-weight: 1000;
+        
+        
+    }
+
+    main .info_name {
+        width: 100px;
+        height: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 85%;
+        font-size: 0.7em;
+        font-weight: 1000;
+        
+        
+    }
+
+}
+
+@media (max-width: 700px){
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    header span{
+        font-size: 2em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header form{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header form input {
+        font-size: 4em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    input[type="search"] {
+        width: 150px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+    main img{
+        width: 170px;
+        height: 170px;
+        
+    }
+
+    main #digimon_image {
+        
+        width: 50%;
+        height: 40.5%;
+        left: 57%;
+        
+        
+        
+        
+    }
+
+    main .digdex{
+        width: 350px;
+        height: 350px;
+        left: 120%;
+    }
+
+    main .info_level {
+        width: 75px;
+        height: 75px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 20%;
+        font-size: 0.6em;
+        font-weight: 1000;
+        
+        
+    }
+
+    main .info_name {
+        width: 80px;
+        height: 80px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 85%;
+        font-size: 0.6em;
+        font-weight: 1000;
+        
+        
+    }
+
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    footer span{
+        font-size: 2em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
